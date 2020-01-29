@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Nunito&display=swap');
+@import "_variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.container {
+  margin-left: unset !important;
+  max-width: 100% !important;
+
+  & div * {
+    height: auto;
+  }
+}
+
+.nav {
+  background-color: $color-primary-0;
+}
+
+.nav-link {
+  color: $color-complement-0;
+
+  &:hover,
+  &.active:hover {
+    color: $color-complement-2;
+    text-decoration: underline;
+  }
+
+  &.active {
+    color: $color-complement-1;
+  }
+}
+
+.block_footer {
+  background-color: $color-primary-0;
+  color: $color-complement-1;
+}

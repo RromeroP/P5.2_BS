@@ -14,13 +14,23 @@ $color-complement-2: #cfad5e;
 $color-complement-3: #805f12;
 $color-complement-4: #553c00;
 
+// Override de variables
+
+$enable-responsive-font-sizes: true !default;
 
 $body-bg: #ced4da;
 
-$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-sans-serif: "Nunito", sans-serif;
 $body-color: $color-primary-3;
 
-$headings-font-family: 'Arvo', serif;
+$navbar-dark-color: $color-complement-1;
+$navbar-dark-active-color: $color-complement-0;
+$light: $color-complement-1;
+$headings-font-family: "Arvo", serif;
 $headings-color: $color-primary-4;
 
+$card_height: 100% !important !default;
 
+//Variables nuevas
+
+$light_bg: #e9e9e9;

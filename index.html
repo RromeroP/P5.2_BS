@@ -5,32 +5,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/custom.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(() => {
+            $("#navbar").load("navbar.html");
+            $("#footer").load("footer.html");
+        });
+
+    </script>
 </head>
 
 <body class="mx-3">
     <div class="container">
-        <div class="row mb-3">
-            <div class="col-md-12 px-0">
-                <nav id="navbar" class="nav text-uppercase justify-content-center">
-                    <a class="nav-item nav-link active" href="#">Home</a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Practices</a>
-                    <a class="nav-item nav-link" href="#">Our lawyers</a>
-                    <a class="nav-item nav-link" href="#">News</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                </nav>
+        <div id="navbar" class="row mb-3">
+
+        </div>
+        <nav class="row" aria-label="breadcrumb">
+            <ol class="col-md-12 breadcrumb border border-white shadow">
+                <li class="breadcrumb-item">Home</li>
+            </ol>
+        </nav>
+        <div class="row block_never border border-white shadow">
+            <div class="col-md-4 align-self-center text-center">
+                <h1>It’s never easy... When<br> it comes to family.</h1>
+                <p>But we can set everything straight.</p>
+            </div>
+            <div class="col-md-8 text-center"><img class="img-fluid" src="images/family-large.jpg" alt="Img"></div>
+        </div>
+        <div class="row pt-4 pb-3 block_mane border border-white">
+            <div class="col-md-8">
+                <h2>The Manes Winchester Promise</h2>
+                <p class="mb-0">
+                    This website template has been designed by Free Website Templates for you, for free. You can replace
+                    all this text with your own text. You can remove any link to our website from this website template,
+                    you're free to use this website template without linking back to us. If you're having problems
+                    editing this website template, then don't hesitate to ask for help on the Forums.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-uppercase">Testimonials</h3>
+                <p>
+                    &ldquo;Aenean ullamcorper purus vitae nisl tristique sollicitudin. Quisque vestibulum, erat
+                    ornare.&rdquo;
+                </p>
+                <span class="float-right">-John Doe and Jane Doe-</span>
             </div>
         </div>
-        <p>Hola mundo</p>
-        <h1>Hola mundo pero guay</h1>
-        <div class="row block_footer">
-            <div class="col-md-12 text-uppercase align-self-center text-center">
-                <p class="my-0 py-4">© Copyright 2023 Manes Winchester. All Rights Reserved.</p>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <h2>Why choose us?</h2>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-md-4 col-xl-3 my-3">
+                <div class="card">
+                    <img class="card-img-top img-thumbnail border boder-white shadow p-0" src="images/meeting.jpg"
+                        alt="Img">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">Our lawyers</h5>
+                        <p class="card-text"> Our website templates are created with inspiration, checked for quality
+                            and originality.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-4 col-xl-3 my-3">
+                <div class="card">
+                    <img class="card-img-top img-thumbnail border boder-white shadow p-0" src="images/handshake.jpg"
+                        alt="Img">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">get to know us more</h5>
+                        <p class="card-text"> Just browse through all our Free Website Templates and ﬁnd what you’re
+                            looking for.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-4 col-xl-3 my-3">
+                <div class="card">
+                    <img class="card-img-top img-thumbnail border boder-white shadow p-0" src="images/smile.jpg"
+                        alt="Img">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">what we offer</h5>
+                        <p class="card-text"> Join the discussion on our forum and meet other people in the community.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-4 col-xl-3 my-3">
+                <div class="card">
+                    <img class="card-img-top img-thumbnail border boder-white shadow p-0" src="images/family-small.jpg"
+                        alt="Img">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">get in touch with us</h5>
+                        <p class="card-text">And we love the challenge of doing something diferent and something
+                            special.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+
         </div>
     </div>
 </body>

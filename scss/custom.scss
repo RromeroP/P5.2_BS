@@ -1,120 +1,117 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo|Nunito&display=swap");
 @import "_variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
-
 .container {
-  margin-left: unset !important;
-  max-width: 100% !important;
-
-  & div * {
-    height: auto;
-  }
+    margin-left: unset !important;
+    max-width: 100% !important;
+    & div * {
+        height: auto;
+    }
 }
 
 .nav a {
-  font-size: 0.97rem;
+    font-size: 0.97rem;
 }
 
 .nav {
-  background-color: $color-primary-0;
-
-  a {
-    color: $color-complement-1;
-  }
-
-  a:hover {
-    color: $color-complement-0;
-  }
+    background-color: $color-primary-0;
+    a {
+        color: $color-complement-1;
+    }
+    a:hover {
+        color: $color-complement-0;
+    }
 }
 
 .breadcrumb {
-  color: $color-primary-1;
-  background-color: $light_bg;
-  border-radius: 0;
-
-  a {
-    color: $color-primary-0;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: $color-primary-4;
-  }
+    color: $color-primary-1;
+    background-color: $light_bg;
+    border-radius: 0;
+    a {
+        color: $color-primary-0;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $color-primary-4;
+    }
 }
 
 .block_never {
-  background-color: $light_bg;
-
-  div h1 {
-    font-size: 1.5rem;
-  }
-
-  div img {
-    max-height: 320px;
-  }
+    background-color: $light_bg;
+    div h1 {
+        font-size: 1.5rem;
+    }
+    div img {
+        max-height: 320px;
+    }
 }
 
 .block_mane {
-  background-color: $light_bg;
-
-  .col-md-4 {
-    border-left: 0.01rem lightgray solid;
-  }
+    background-color: $light_bg;
+    .col-md-4 {
+        border-left: 0.01rem lightgray solid;
+    }
 }
 
 .nav-pills {
-  padding: 0;
+    padding: 0;
 }
 
 .nav-link.active {
-  border-radius: 0;
-  width: 100%;
-  background-color: $color-primary-3 !important;
+    border-radius: 0;
+    width: 100%;
+    background-color: $color-primary-3 !important;
 }
 
 .btn-dark {
-  background-color: $color-primary-3;
-  border-color: $color-primary-4;
-
-  &:hover,&:focus,&:active {
-    background-color: $color-primary-4 !important;
-  }
+    background-color: $color-primary-3;
+    border-color: $color-primary-4;
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $color-primary-4 !important;
+    }
 }
 
 #footer_note {
-  background-color: $color-primary-0;
-  color: $color-complement-1;
-
-  i {
-    font-size: 1.5rem;
-  }
+    background-color: $color-primary-0;
+    color: $color-complement-1;
+    i {
+        font-size: 1.5rem;
+    }
 }
 
 .tab-content {
-  border-left: 0.01rem solid $light_bg;
-  border-bottom: 0.01rem solid $light_bg;
-
-  background-color: $color-primary-0;
-  color: $color-complement-1;
-
-  h5 {
+    border-left: 0.01rem solid $light_bg;
+    border-bottom: 0.01rem solid $light_bg;
+    background-color: $color-primary-0;
     color: $color-complement-1;
-  }
+    h5 {
+        color: $color-complement-1;
+    }
 }
 
 @include media-breakpoint-down(xs) {
-  div h1 {
-    margin-top: 1rem;
-  }
+    div h1 {
+        margin-top: 1rem;
+    }
+    .block_mane .col-md-4 {
+        border-left: none;
+        margin-top: 1rem;
+    }
+    .tab-content {
+        border-left: none;
+        border-top: 0.01rem solid $light_bg;
+        border-bottom: 0.01rem solid $light_bg;
+    }
+}
 
-  .block_mane .col-md-4 {
-    border-left: none;
-    margin-top: 1rem;
-  }
+.odd {
+    background-color: $color-primary-0;
+    color: $color-complement-2;
+}
 
-  .tab-content {
-    border-left: none;
-    border-top: 0.01rem solid $light_bg;
-    border-bottom: 0.01rem solid $light_bg;
-  }
+.even {
+    background-color: $color-primary-1;
+    color: $color-complement-1;
 }

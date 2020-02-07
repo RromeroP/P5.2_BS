@@ -115,3 +115,32 @@
     background-color: $color-primary-1;
     color: $color-complement-1;
 }
+
+.botonP {
+    background-color: $color-primary-3 !important;
+    color: $color-complement-1 !important;
+}
+
+#jared {
+    display: block;
+    text-align: right;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card {
+    height: auto !important;
+}
+
+.btn-secondary {
+    background-color: $color-primary-0;
+    &:hover {
+        background-color: $color-primary-0;
+    }
+}
+
+.dropdown-item {
+    background-color: $color-primary-0;
+}

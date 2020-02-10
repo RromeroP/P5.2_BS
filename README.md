@@ -10,4 +10,4 @@ Color Palette used:
 
 http://paletton.com/#uid=23R0u0kmdl7b+vmhwpYrqg3xYaF
 
-![alt text](https://github.com/RromeroP/P5.2_BS/blob/master/images/bride.jpg "Logo Title Text 1")
+![alt text](https://github.com/RromeroP/P5.2_BS/blob/master/images/ColorPalette.PNG "Color Palette")

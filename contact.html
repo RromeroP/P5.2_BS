@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contac</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/custom.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(() => {
+            $("#navbar").load("navbar.html");
+            $("#footer").load("footer.html");
+        });
+
+    </script>
+</head>
+
+<body class="mx-3">
+    <div class="container">
+        <div id="navbar" class="row mb-3">
+
+
+        </div>
+
+        <nav class="row" aria-label="breadcrumb">
+            <ol class="col-md-12 breadcrumb border border-white shadow">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item">Contact</li>
+            </ol>
+        </nav>
+
+        <div class="row my-3">
+
+            <div class="col-md-4">
+
+                <h4 class="text-uppercase">Contact info</h4>
+
+                <div class="row">
+                    <i class="col-md-1 fa fa-home"></i>
+                    <p class="col-md-11">
+                        <b style="font-size: 1.2rem;">Manes Winchester Family Law Firmthe</b> address city, state 1111
+                    </p>
+                </div>
+
+                <div class="row">
+                    <i class="col-md-1 fa fa-phone"></i>
+                    <p class="col-md-11">Phone: (+20) 000 222 999 </p>
+                </div>
+
+                <div class="row">
+                    <i class="col-md-1 fa fa-fax"></i>
+                    <p class="col-md-11">Fax: (+20) 000 222 988 </p>
+                </div>
+
+
+                <div class="row">
+                    <i class="col-md-1 fa fa-envelope"></i>
+                    <p class="col-md-11">Email: info@freewebsitetemplates.com</p>
+                </div>
+
+            </div>
+
+            <form class="col-md-8">
+
+                <div>
+                    <h3 class="text-uppercase">Contact</h3>
+                    <h5 class="text-uppercase">Send us a quick message</h5>
+                    <p>
+                        You can remove any link to our website from this website template, you're free to use this
+                        website template without linking back to us.If you're having problems editing this website
+                        template, then don't hesitate to ask for help on the Forums.
+                    </p>
+                </div>
+
+                <div class="form-group">
+                    <label for="first_name">First name</label>
+                    <input type="text" class="form-control" id="first_name">
+                </div>
+
+                <div class="form-group">
+                    <label for="last_name">Last name</label>
+                    <input type="text" class="form-control" id="last_name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea style="resize: none;" class="form-control" id="message" rows="3"></textarea>
+                </div>
+
+                <a href="#" class="btn btn-dark">Send message</a>
+            </form>
+
+        </div>
+
+        <div id="footer">
+
+        </div>
+    </div>
+</body>
+
+</html>
